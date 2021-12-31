@@ -736,7 +736,7 @@
                                                         }
                                                         return (r = t.value), (e.prev = 6), (e.next = 9), Object(sn.c)(x, r.pid);
                                                     case 9:
-                                                        l("".concat(c("Harvested"), "!"), c("Your %symbol% earnings have been sent to your wallet!", { symbol: "GLIDE" })), (e.next = 15);
+                                                        l("".concat(c("Harvested"), "!"), c("Your %symbol% earnings have been sent to your wallet!", { symbol: "CLUBBNAIR" })), (e.next = 15);
                                                         break;
                                                     case 12:
                                                         (e.prev = 12), (e.t0 = e.catch(6)), a(c("Error"), c("Please try again. Confirm the transaction and make sure you are paying enough gas!"));
