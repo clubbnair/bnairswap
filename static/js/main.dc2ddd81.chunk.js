@@ -563,6 +563,7 @@
                 slothLP: { symbol: "SLOTH-ELA LP", address: { 20: "0x3DCe3e9C2DBe687ab1794E89e48ad0947c4ae48F" }, decimals: 18, projectLink: "https://www.slothtoken.club/" },
                 bun: { symbol: "BUN", address: { 20: "0x63B2dcd421d2E9168EC79e880fB0D2D45d539A66" }, decimals: 18, projectLink: "https://www.bunnypunk.online/" },
                 bunLP: { symbol: "BUN-ELA LP", address: { 20: "0xb454FC9F6681dCa0D7C3b7a170A89B8bD7bdA71A" }, decimals: 18, projectLink: "https://www.bunnypunk.online/" },
+                bnair: { symbol: "BNAIR", address: { 20: "0x2dE2135F40b5C3De54A3785D99AE7ea1F2E7793E" }, decimals: 18, projectLink: "https://www.bnair.org" },
             };
         },
         ,
@@ -7803,6 +7804,7 @@
                     { pid: 0, lpSymbol: "CLUBBNAIR", lpAddresses: { 20: "0x5e057e7353f6BA99856bdaE666F36c8d2750f024" }, token: a.d.sugar, quoteToken: a.d.wela },
                     { pid: 1, lpSymbol: "CLUBBNAIR-ELA LP", lpAddresses: { 20: "0xf57f89a9dea160c34ee42c07fafef1f37e95676b" }, token: a.d.glide, quoteToken: a.d.wela },
                     { pid: 2, lpSymbol: "CLUBBNAIR-USDC LP", lpAddresses: { 20: "0x9a277d74c961ba405b95179286a7021f1efb876b" }, token: a.d.glide, quoteToken: a.d.usdc },
+                    { pid: 3, lpSymbol: "CLUBBNAIR-BNAIR LP", lpAddresses: { 20: "0xec4f3e2cbef579248d1eb87b199af6a5774fb64d" }, token: a.d.glide, quoteToken: a.d.bnair }
                 ];
             t.a = i;
         },
