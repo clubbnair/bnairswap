@@ -304,9 +304,9 @@
                     return q;
                 });
             var a = n(8),
-                i = { 20: "0x588D5eFd2BD93Aa3DB61aE3C4C172bbf0B4C7feB" },
+                i = { 20: "0xBBa51dA723e7d645758C6e5728d0bedDD9e9cfCC" },
                 r = { 20: "0x80f2cF7059336b44a75F00451B81f8d742DD2b94" },
-                o = { 20: "0x063c1462A8A24a6B692B53eB38849CD6F6539b98" },
+                o = { 20: "0x9FCcDaf4e95a3A04cBF39930EaD1b9C1CfF02E99" },
                 s = { 20: "0x9999999999999999999999999999999999999999" },
                 c = { 20: "0x0555fcE4231A25AcB648284bfecf6B85e1AF6Bd4", 128: "0x0555fcE4231A25AcB648284bfecf6B85e1AF6Bd4", 1: "0x0555fcE4231A25AcB648284bfecf6B85e1AF6Bd4" },
                 u = { 20: "0x9999999999999999999999999999999999999999" },
@@ -540,12 +540,12 @@
                 });
             var a = n(17),
                 i = n(8),
-                r = Object(a.a)({}, i.a.MAINNET, new i.j(i.a.MAINNET, "0xa73853f4B75165d8cb864187276ef794F8C52b37", 18, "CLUBBNAIR", "BillionaireClub")),
+                r = Object(a.a)({}, i.a.MAINNET, new i.j(i.a.MAINNET, "0xe9539967173aB07EE346e4bDC4942bFc0702535d", 18, "CLUBBNAIR", "BillionaireClub")),
                 o = Object(a.a)({}, i.a.MAINNET, new i.j(i.a.MAINNET, "0xA06be0F5950781cE28D965E5EFc6996e88a8C141", 6, "USDC", "USD Coin")),
                 s = new i.j(i.a.MAINNET, "0x517E9e5d46C1EA8aB6f78677d6114Ef47F71f6c4", 18, "WELA", "Wrapped ELA");
             t.d = {
-                glide: { symbol: "CLUBBNAIR", address: { 20: "0xa73853f4B75165d8cb864187276ef794F8C52b37" }, decimals: 18, projectLink: "https://bnair.org/" },
-                sugar: { symbol: "SUGAR", address: { 20: "0x1213962Ad05759CA373791C7Ee3ab637A8Bd9A72" }, decimals: 18, projectLink: "https://bnair.org/" },
+                glide: { symbol: "CLUBBNAIR", address: { 20: "0xe9539967173aB07EE346e4bDC4942bFc0702535d" }, decimals: 18, projectLink: "https://bnair.org/" },
+                sugar: { symbol: "SUGAR", address: { 20: "0xf8713CDa4Ff39D20969c7e1e9B1dD99AC48571F9" }, decimals: 18, projectLink: "https://bnair.org/" },
                 wela: { symbol: "wELA", address: { 20: "0x517E9e5d46C1EA8aB6f78677d6114Ef47F71f6c4" }, decimals: 18, projectLink: "https://elastos.org/" },
                 ela: { symbol: "ELA", address: { 20: "0x517E9e5d46C1EA8aB6f78677d6114Ef47F71f6c4" }, decimals: 18, projectLink: "https://elastos.org/" },
                 eth: { symbol: "ETH", address: { 20: "0x802c3e839E4fDb10aF583E3E759239ec7703501e" }, decimals: 18, projectLink: "https://ethereum.org" },
@@ -4626,7 +4626,7 @@
                     20 === e &&
                         1 === t &&
                         (a = a.filter(function (e) {
-                            return "0xa73853f4B75165d8cb864187276ef794F8C52b37" !== e.address;
+                            return "0xe9539967173aB07EE346e4bDC4942bFc0702535d" !== e.address;
                         })),
                     (n.tokens = a),
                     v(n)
@@ -4898,7 +4898,7 @@
                         sousId: 0,
                         stakingToken: a.d.glide,
                         earningToken: a.d.glide,
-                        contractAddress: { 20: "0x588D5eFd2BD93Aa3DB61aE3C4C172bbf0B4C7feB" },
+                        contractAddress: { 20: "0xBBa51dA723e7d645758C6e5728d0bedDD9e9cfCC" },
                         poolCategory: i.b.CORE,
                         harvest: !0,
                         tokenPerBlock: "0.4875",
@@ -7801,10 +7801,10 @@
             "use strict";
             var a = n(32),
                 i = [
-                    { pid: 0, lpSymbol: "CLUBBNAIR", lpAddresses: { 20: "0xa73853f4B75165d8cb864187276ef794F8C52b37" }, token: a.d.sugar, quoteToken: a.d.wela },
-                    { pid: 1, lpSymbol: "CLUBBNAIR-ELA LP", lpAddresses: { 20: "0xbe9f6fdd0800272f85f5ff8a0bb180e8939bbfcc" }, token: a.d.glide, quoteToken: a.d.wela },
-                    { pid: 2, lpSymbol: "CLUBBNAIR-USDC LP", lpAddresses: { 20: "0x169261fe55b4dd43de64d175ca9104e7976bca35" }, token: a.d.glide, quoteToken: a.d.usdc },
-                    { pid: 3, lpSymbol: "CLUBBNAIR-BNAIR LP", lpAddresses: { 20: "0x6dffcbbd0cb4e47a350e64f1eaf81cbc91282cc7" }, token: a.d.glide, quoteToken: a.d.bnair }
+                    { pid: 0, lpSymbol: "CLUBBNAIR", lpAddresses: { 20: "0xe9539967173aB07EE346e4bDC4942bFc0702535d" }, token: a.d.sugar, quoteToken: a.d.wela },
+                    { pid: 1, lpSymbol: "CLUBBNAIR-ELA LP", lpAddresses: { 20: "0xf21268b90d4d73d1d83ebcdd830db70c5248d622" }, token: a.d.glide, quoteToken: a.d.wela },
+                    { pid: 2, lpSymbol: "CLUBBNAIR-USDC LP", lpAddresses: { 20: "0xc941703f4632e69b1f89a83eab30c016e66823c4" }, token: a.d.glide, quoteToken: a.d.usdc },
+                    { pid: 3, lpSymbol: "CLUBBNAIR-BNAIR LP", lpAddresses: { 20: "0xe0ae9ca3c5f80457342ba7ba6d43ce7ba2b11d78" }, token: a.d.glide, quoteToken: a.d.bnair }
                 ];
             t.a = i;
         },
@@ -11027,7 +11027,7 @@
         ,
         function (e) {
             e.exports = JSON.parse(
-                '{"name":"Glide Default List","timestamp":"2021-05-06T00:00:00Z","version":{"major":1,"minor":0,"patch":0},"tags":{},"logoURI":"","keywords":["glide","default"],"tokens":[{"name":"BillionaireClub","symbol":"CLUBBNAIR","address":"0xa73853f4B75165d8cb864187276ef794F8C52b37","chainId":20,"decimals":18,"logoURI":""},{"name":"HT on Elastos","symbol":"HT","address":"0xeceefC50f9aAcF0795586Ed90a8b9E24f55Ce3F3","chainId":20,"decimals":18,"logoURI":""},{"name":"HUSD on Elastos","symbol":"HUSD","address":"0xF9Ca2eA3b1024c0DB31adB224B407441bECC18BB","chainId":20,"decimals":8,"logoURI":""},{"name":"FILDA on Elastos","symbol":"FILDA","address":"0xB9Ae03e3320235D3a8AE537f87FF8529b445B590","chainId":20,"decimals":18,"logoURI":""},{"name":"USDC on Elastos","symbol":"USDC","address":"0xA06be0F5950781cE28D965E5EFc6996e88a8C141","chainId":20,"decimals":6,"logoURI":""},{"name":"ETH on Elastos","symbol":"ETH","address":"0x802c3e839E4fDb10aF583E3E759239ec7703501e","chainId":20,"decimals":18,"logoURI":""},{"name":"Material on Elastos","symbol":"MTRL","address":"0xe2390b8B08a9Ab68e6f1aaA150B2ddD03900CE25","chainId":20,"decimals":18,"logoURI":""},{"name":"Wrapped Elastos","symbol":"WELA","address":"0x517E9e5d46C1EA8aB6f78677d6114Ef47F71f6c4","chainId":20,"decimals":18,"logoURI":""}]}'
+                '{"name":"Glide Default List","timestamp":"2021-05-06T00:00:00Z","version":{"major":1,"minor":0,"patch":0},"tags":{},"logoURI":"","keywords":["glide","default"],"tokens":[{"name":"BillionaireClub","symbol":"CLUBBNAIR","address":"0xe9539967173aB07EE346e4bDC4942bFc0702535d","chainId":20,"decimals":18,"logoURI":""},{"name":"HT on Elastos","symbol":"HT","address":"0xeceefC50f9aAcF0795586Ed90a8b9E24f55Ce3F3","chainId":20,"decimals":18,"logoURI":""},{"name":"HUSD on Elastos","symbol":"HUSD","address":"0xF9Ca2eA3b1024c0DB31adB224B407441bECC18BB","chainId":20,"decimals":8,"logoURI":""},{"name":"FILDA on Elastos","symbol":"FILDA","address":"0xB9Ae03e3320235D3a8AE537f87FF8529b445B590","chainId":20,"decimals":18,"logoURI":""},{"name":"USDC on Elastos","symbol":"USDC","address":"0xA06be0F5950781cE28D965E5EFc6996e88a8C141","chainId":20,"decimals":6,"logoURI":""},{"name":"ETH on Elastos","symbol":"ETH","address":"0x802c3e839E4fDb10aF583E3E759239ec7703501e","chainId":20,"decimals":18,"logoURI":""},{"name":"Material on Elastos","symbol":"MTRL","address":"0xe2390b8B08a9Ab68e6f1aaA150B2ddD03900CE25","chainId":20,"decimals":18,"logoURI":""},{"name":"Wrapped Elastos","symbol":"WELA","address":"0x517E9e5d46C1EA8aB6f78677d6114Ef47F71f6c4","chainId":20,"decimals":18,"logoURI":""}]}'
             );
         },
         function (e) {
@@ -11920,7 +11920,7 @@
         ,
         function (e) {
             e.exports = JSON.parse(
-                '{"name":"Glide Bridge List","timestamp":"2021-09-09T00:00:00Z","version":{"major":1,"minor":0,"patch":0},"tags":{},"logoURI":"","keywords":["glide","bridge"],"tokens":[{"name":"ETH on Elastos","symbol":"ETH","address":"0x802c3e839E4fDb10aF583E3E759239ec7703501e","chainId":20,"decimals":18,"logoURI":"","origin":1,"minTx":1},{"name":"HT on Elastos","symbol":"HT","address":"0xeceefC50f9aAcF0795586Ed90a8b9E24f55Ce3F3","chainId":20,"decimals":18,"logoURI":"","origin":128},{"name":"ELA on Ethereum","symbol":"ELA","address":"0xe6fd75ff38Adca4B97FBCD938c86b98772431867","chainId":1,"decimals":18,"logoURI":"","origin":20,"minTx":1000},{"name":"ELA on Heco","symbol":"ELA","address":"0xa1ecFc2beC06E4b43dDd423b94Fef84d0dBc8F5c","chainId":128,"decimals":18,"logoURI":"","origin":20},{"name":"HUSD on Elastos","symbol":"HUSD","address":"0xF9Ca2eA3b1024c0DB31adB224B407441bECC18BB","chainId":20,"decimals":8,"logoURI":"","origin":128},{"name":"Heco-Peg HUSD","symbol":"HUSD","address":"0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047","chainId":128,"decimals":8,"logoURI":"","origin":128},{"name":"FILDA on Heco","symbol":"FILDA","address":"0xE36FFD17B2661EB57144cEaEf942D95295E637F0","chainId":128,"decimals":18,"logoURI":"","origin":128},{"name":"FILDA on Elastos","symbol":"FILDA","address":"0xB9Ae03e3320235D3a8AE537f87FF8529b445B590","chainId":20,"decimals":18,"logoURI":"","origin":128},{"name":"USD Coin","symbol":"USDC","address":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","chainId":1,"decimals":6,"logoURI":"","origin":1,"minTx":5000},{"name":"USDC on Elastos","symbol":"USDC","address":"0xA06be0F5950781cE28D965E5EFc6996e88a8C141","chainId":20,"decimals":6,"logoURI":"","origin":1,"minTx":5000},{"name":"BillionaireClub","symbol":"CLUBBNAIR","address":"0xa73853f4B75165d8cb864187276ef794F8C52b37","chainId":20,"decimals":18,"logoURI":"","origin":20},{"name":"Glide on Heco","symbol":"GLIDE","address":"0x8bD946896c0089cEea90b5dABa5A472684A3fA48","chainId":128,"decimals":18,"logoURI":"","origin":20},{"name":"Material","symbol":"MTRL","address":"0x13C99770694f07279607A6274F28a28c33086424","chainId":1,"decimals":18,"logoURI":"","origin":1,"minTx":150000},{"name":"Material on Elastos","symbol":"MTRL","address":"0xe2390b8B08a9Ab68e6f1aaA150B2ddD03900CE25","chainId":20,"decimals":18,"logoURI":"","origin":1,"minTx":150000,"fee":2}]}'
+                '{"name":"Glide Bridge List","timestamp":"2021-09-09T00:00:00Z","version":{"major":1,"minor":0,"patch":0},"tags":{},"logoURI":"","keywords":["glide","bridge"],"tokens":[{"name":"ETH on Elastos","symbol":"ETH","address":"0x802c3e839E4fDb10aF583E3E759239ec7703501e","chainId":20,"decimals":18,"logoURI":"","origin":1,"minTx":1},{"name":"HT on Elastos","symbol":"HT","address":"0xeceefC50f9aAcF0795586Ed90a8b9E24f55Ce3F3","chainId":20,"decimals":18,"logoURI":"","origin":128},{"name":"ELA on Ethereum","symbol":"ELA","address":"0xe6fd75ff38Adca4B97FBCD938c86b98772431867","chainId":1,"decimals":18,"logoURI":"","origin":20,"minTx":1000},{"name":"ELA on Heco","symbol":"ELA","address":"0xa1ecFc2beC06E4b43dDd423b94Fef84d0dBc8F5c","chainId":128,"decimals":18,"logoURI":"","origin":20},{"name":"HUSD on Elastos","symbol":"HUSD","address":"0xF9Ca2eA3b1024c0DB31adB224B407441bECC18BB","chainId":20,"decimals":8,"logoURI":"","origin":128},{"name":"Heco-Peg HUSD","symbol":"HUSD","address":"0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047","chainId":128,"decimals":8,"logoURI":"","origin":128},{"name":"FILDA on Heco","symbol":"FILDA","address":"0xE36FFD17B2661EB57144cEaEf942D95295E637F0","chainId":128,"decimals":18,"logoURI":"","origin":128},{"name":"FILDA on Elastos","symbol":"FILDA","address":"0xB9Ae03e3320235D3a8AE537f87FF8529b445B590","chainId":20,"decimals":18,"logoURI":"","origin":128},{"name":"USD Coin","symbol":"USDC","address":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","chainId":1,"decimals":6,"logoURI":"","origin":1,"minTx":5000},{"name":"USDC on Elastos","symbol":"USDC","address":"0xA06be0F5950781cE28D965E5EFc6996e88a8C141","chainId":20,"decimals":6,"logoURI":"","origin":1,"minTx":5000},{"name":"BillionaireClub","symbol":"CLUBBNAIR","address":"0xe9539967173aB07EE346e4bDC4942bFc0702535d","chainId":20,"decimals":18,"logoURI":"","origin":20},{"name":"Glide on Heco","symbol":"GLIDE","address":"0x8bD946896c0089cEea90b5dABa5A472684A3fA48","chainId":128,"decimals":18,"logoURI":"","origin":20},{"name":"Material","symbol":"MTRL","address":"0x13C99770694f07279607A6274F28a28c33086424","chainId":1,"decimals":18,"logoURI":"","origin":1,"minTx":150000},{"name":"Material on Elastos","symbol":"MTRL","address":"0xe2390b8B08a9Ab68e6f1aaA150B2ddD03900CE25","chainId":20,"decimals":18,"logoURI":"","origin":1,"minTx":150000,"fee":2}]}'
             );
         },
         ,
