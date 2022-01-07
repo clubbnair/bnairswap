@@ -9888,7 +9888,7 @@
                             "\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n  padding: 16px;\n  padding-bottom: 0;\n  min-height: 100vh;\n\n  ",
                             " {\n    background-size: auto;\n  }\n\n  ",
                             " {\n    padding: 24px;\n    padding-bottom: 0;\n  }\n\n  ",
-                            " {\n    padding-top: 10vh;\n    min-height: 100vh;\n    background: radial-gradient(40% 55% at 45% 57.5%, #d97645 0%, rgba(242, 173, 108, 0.4) 25%, rgba(6, 9, 20, 0) 72.5%),\n      radial-gradient(40% 45% at 55% 47.5%, #48b9ff 0%, rgba(72, 185, 255, 0.4) 25%, rgba(6, 9, 20, 0) 72.5%);\n    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n    background-position-y: -8vh;\n  }\n",
+                            " {\n    padding-top: 10vh;\n    min-height: 100vh;\n    background: radial-gradient(40% 55% at 45% 57.5%, #cca93d 0%, rgba(242, 173, 108, 0.4) 25%, rgba(6, 9, 20, 0) 72.5%),\n      radial-gradient(40% 45% at 55% 47.5%, #48b9ff 0%, rgba(72, 185, 255, 0.4) 25%, rgba(6, 9, 20, 0) 72.5%);\n    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n    background-position-y: -8vh;\n  }\n",
                         ])),
                     function (e) {
                         return e.theme.mediaQueries.xs;
