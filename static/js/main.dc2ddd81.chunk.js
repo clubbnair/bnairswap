@@ -14352,7 +14352,7 @@
                                 { type: U.G.DIVIDER },
                                 { type: U.G.SOCIALS },
                                 { type: U.G.DIVIDER },
-                                { label: e("Docs & Help"), href: "https://docs.glidefinance.io", type: U.G.EXTERNAL_LINK },
+                                { label: e("Docs & Help"), href: "https://bnair.org/platform-details/", type: U.G.EXTERNAL_LINK },
                                 { label: e("Community"), icon: "Pool", href: "/community", showItemsOnMobile: !1 },
                             ],
                         },
