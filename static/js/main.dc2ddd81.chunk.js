@@ -7804,7 +7804,7 @@
                     { pid: 0, lpSymbol: "CLUBBNAIR", lpAddresses: { 20: "0xe9539967173aB07EE346e4bDC4942bFc0702535d" }, token: a.d.sugar, quoteToken: a.d.wela },
                     { pid: 1, lpSymbol: "CLUBBNAIR-ELA LP", lpAddresses: { 20: "0xf21268b90d4d73d1d83ebcdd830db70c5248d622" }, token: a.d.glide, quoteToken: a.d.wela },
                     { pid: 2, lpSymbol: "CLUBBNAIR-USDC LP", lpAddresses: { 20: "0xc941703f4632e69b1f89a83eab30c016e66823c4" }, token: a.d.glide, quoteToken: a.d.usdc },
-                    { pid: 2, lpSymbol: "CLUBBNAIR-BNAIR LP", lpAddresses: { 20: "0xe0ae9ca3c5f80457342ba7ba6d43ce7ba2b11d78" }, token: a.d.glide, quoteToken: a.d.bnair }
+                    { pid: 3, lpSymbol: "CLUBBNAIR-BNAIR LP", lpAddresses: { 20: "0xe0ae9ca3c5f80457342ba7ba6d43ce7ba2b11d78" }, token: a.d.glide, quoteToken: a.d.bnair }
                 ];
             t.a = i;
         },
