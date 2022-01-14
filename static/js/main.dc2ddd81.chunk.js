@@ -11006,7 +11006,7 @@
                 n.d(t, "b", function () {
                     return i;
                 });
-            var a = { title: "BNAIR SWAP", description: "The best decentralized exchange on ESC! Earn CLUBBNAIR through yield farming, then stake it in pools to earn more tokens!", image: "https://defi.bnair.org/images/hero.png" },
+            var a = { title: "BNAIR SWAP", description: "Incentivized Farming on the Elastos Smart Chain. Earn CLUBBNAIR through yield farming, then use your earnings to purchase Exclusive Travel packages and luxury Goods.", image: "https://defi.bnair.org/images/hero.png" },
                 i = function (e, t) {
                     switch (e) {
                         case "/":
