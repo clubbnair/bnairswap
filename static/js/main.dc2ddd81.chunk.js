@@ -541,7 +541,7 @@
             var a = n(17),
                 i = n(8),
                 r = Object(a.a)({}, i.a.MAINNET, new i.j(i.a.MAINNET, "0xe9539967173aB07EE346e4bDC4942bFc0702535d", 18, "CLUBBNAIR", "BillionaireClub")),
-                o = Object(a.a)({}, i.a.MAINNET, new i.j(i.a.MAINNET, "0xA06be0F5950781cE28D965E5EFc6996e88a8C141", 6, "USDC", "USD Coin")),
+                o = Object(a.a)({}, i.a.MAINNET, new i.j(i.a.MAINNET, "0x2dE2135F40b5C3De54A3785D99AE7ea1F2E7793E", 18, "BNAIR", "WantToBeABillionair")),
                 s = new i.j(i.a.MAINNET, "0x517E9e5d46C1EA8aB6f78677d6114Ef47F71f6c4", 18, "WELA", "Wrapped ELA");
             t.d = {
                 glide: { symbol: "CLUBBNAIR", address: { 20: "0xe9539967173aB07EE346e4bDC4942bFc0702535d" }, decimals: 18, projectLink: "https://bnair.org/" },
