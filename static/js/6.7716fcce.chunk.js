@@ -333,7 +333,7 @@
                                     justifyContent: "flex-start",
                                     children: [
                                         Object(y.jsx)(m.M, { scale: "xl", mb: "24px", color: "glide", children: e("BNAIR SWAP") }),
-                                        Object(y.jsx)(m.O, { scale: "md", mb: "24px", children: e("The best decentralized exchange on Elastos") }),
+                                        Object(y.jsx)(m.O, { scale: "md", mb: "24px", children: e("Incentivized Farming on the Elastos Smart Chain. Earn CLUBBNAIR through yield farming, then use your earnings to purchase Exclusive Travel packages and luxury Goods.") }),
                                         Object(y.jsxs)(m.L, {
                                             children: [
                                                 !n && Object(y.jsx)(M.a, { mr: "8px" }),
