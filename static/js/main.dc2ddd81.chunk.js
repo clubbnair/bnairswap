@@ -14341,7 +14341,6 @@
                         { label: e("Farm"), icon: "Farm", href: "/farms", showItemsOnMobile: !1 },
                         { label: e("Stake"), icon: "Pool", href: "/pools", showItemsOnMobile: !1 },
                         { label: e("Community"), icon: "Community", href: "/community", showItemsOnMobile: !1, showOnMobile: !1 },
-                        { label: e("Analytics"), icon: "Analytics", href: "/info", showItemsOnMobile: !1 },
                         {
                             label: "",
                             href: "/info",
