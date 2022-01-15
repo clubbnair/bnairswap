@@ -564,6 +564,7 @@
                 bun: { symbol: "BUN", address: { 20: "0x63B2dcd421d2E9168EC79e880fB0D2D45d539A66" }, decimals: 18, projectLink: "https://www.bunnypunk.online/" },
                 bunLP: { symbol: "BUN-ELA LP", address: { 20: "0xb454FC9F6681dCa0D7C3b7a170A89B8bD7bdA71A" }, decimals: 18, projectLink: "https://www.bunnypunk.online/" },
                 bnairT: { symbol: "BNAIR", address: { 20: "0x2dE2135F40b5C3De54A3785D99AE7ea1F2E7793E" }, decimals: 18, projectLink: "https://www.bnair.org" },
+                dia: { symbol: "DIA", address: { 20: "0x2C8010Ae4121212F836032973919E8AeC9AEaEE5" }, decimals: 18, projectLink: "" }
             };
         },
         ,
@@ -7804,7 +7805,8 @@
                     { pid: 0, lpSymbol: "CLUBBNAIR", lpAddresses: { 20: "0xe9539967173aB07EE346e4bDC4942bFc0702535d" }, token: a.d.sugar, quoteToken: a.d.wela },
                     { pid: 1, lpSymbol: "CLUBBNAIR-ELA LP", lpAddresses: { 20: "0xf21268b90d4d73d1d83ebcdd830db70c5248d622" }, token: a.d.glide, quoteToken: a.d.wela },
                     { pid: 2, lpSymbol: "CLUBBNAIR-USDC LP", lpAddresses: { 20: "0xc941703f4632e69b1f89a83eab30c016e66823c4" }, token: a.d.glide, quoteToken: a.d.usdc },
-                    { pid: 3, lpSymbol: "CLUBBNAIR-BNAIR LP", lpAddresses: { 20: "0xe0ae9ca3c5f80457342ba7ba6d43ce7ba2b11d78" }, token: a.d.bnairT, quoteToken: a.d.glide },
+                    { pid: 3, lpSymbol: "CLUBBNAIR-BNAIR LP", lpAddresses: { 20: "0xe0ae9ca3c5f80457342ba7ba6d43ce7ba2b11d78" }, token: a.d.bnairT, quoteToken: a.d.glide }, 
+                    { pid: 4, lpSymbol: "CLUBBNAIR-DIA LP", lpAddresses: { 20: "0xecbb6dc16aa0c804e812aa47fdc08cb913ceb873" }, token: a.d.dia, quoteToken: a.d.glide } ,
                 ];
             t.a = i;
         },
