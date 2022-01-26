@@ -565,7 +565,7 @@
                 bunLP: { symbol: "BUN-ELA LP", address: { 20: "0xb454FC9F6681dCa0D7C3b7a170A89B8bD7bdA71A" }, decimals: 18, projectLink: "https://www.bunnypunk.online/" },
                 bnairT: { symbol: "BNAIR", address: { 20: "0x2dE2135F40b5C3De54A3785D99AE7ea1F2E7793E" }, decimals: 18, projectLink: "https://www.bnair.org" },
                 dia: { symbol: "DIA", address: { 20: "0x2C8010Ae4121212F836032973919E8AeC9AEaEE5" }, decimals: 18, projectLink: "" },
-                gold: { symbol: "GOLD", address: { 20: "0xaA9691BcE68ee83De7B518DfCBBfb62C04B1C0BA" }, decimals: 18, projectLink: "" }
+                gold: { symbol: "GOLD", address: { 20: "0xaA9691BcE68ee83De7B518DfCBBfb62C04B1C0BA" }, decimals: 18, projectLink: "" },
                 eluna: { symbol: "ELUNA", address: { 20: "0xaf5c9cFc03b494c2b49D7c0df1Da0Fd303ad5445" }, decimals: 18, projectLink: "https://elastosterra.com/" }
             };
         },
