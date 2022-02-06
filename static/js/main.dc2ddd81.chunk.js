@@ -7812,7 +7812,7 @@
                     { pid: 5, lpSymbol: "CLUBBNAIR-GOLD LP", lpAddresses: { 20: "0xdce79af2e59fadc2b9f4ff19d50c863d6cd3de74" }, token: a.d.gold, quoteToken: a.d.glide },
                     { pid: 6, lpSymbol: "CLUBBNAIR-ELUNA LP", lpAddresses: { 20: "0x9a063bbcba87a3287e4d5ecd1d40c3d6a14f78f0" }, token: a.d.eluna, quoteToken: a.d.glide },
                     { pid: 7, lpSymbol: "CLUBBNAIR-SLOTH LP", lpAddresses: { 20: "0xcc284cd3edd0266290958dd5e8e0e2125ec718f0" }, token: a.d.sloth, quoteToken: a.d.glide },
-                    { pid: 8, lpSymbol: "GOLD-ELUNA LP", lpAddresses: { 20: "0xce71127f923587c53ab4896ac7f87957fe960802" }, token: a.d.eluna, quoteToken: a.d.sloth }
+                    { pid: 8, lpSymbol: "GOLD-ELUNA LP", lpAddresses: { 20: "0xce71127f923587c53ab4896ac7f87957fe960802" }, token: a.d.eluna, quoteToken: a.d.gold }
                 ];
             t.a = i;
         },
