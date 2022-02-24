@@ -583,9 +583,9 @@
                                     var n = new bn.a(0);
                                     return (
                                         e.forEach(function (e) {
-                                            if (e.stakingTokenPrice && e.totalStaked && e.stakingToken.decimals) {
+                                            if (window.tokenPrice && e.totalStaked && e.stakingToken.decimals) {
                                                 var t = Object(ln.d)(e.totalStaked, e.stakingToken.decimals);
-                                                n = new bn.a(t).times(e.stakingTokenPrice).plus(n);
+                                                n = new bn.a(t).times(window.tokenPrice).plus(n);
                                             }
                                         }),
                                         n

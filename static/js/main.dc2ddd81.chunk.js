@@ -1512,7 +1512,7 @@
                         t = e.totalStaked,
                         n = e.startBlock,
                         a = e.apr,
-                        i = e.stakingTokenPrice,
+                        i = window.tokenPrice,
                         r = e.earningTokenPrice,
                         s = e.userData,
                         u = s.isLoading,
@@ -6856,7 +6856,7 @@
                                                             w = t.earningToken.address ? Object(f.a)(t.earningToken.address).toLowerCase() : null,
                                                             k = w ? O[w] : 0,
                                                             T = c ? 0 : Object(y.b)(g, k, Object(m.d)(new d.a(a.totalStaked), t.stakingToken.decimals), parseFloat(t.tokenPerBlock));
-                                                        return Object(o.a)(Object(o.a)(Object(o.a)({}, n), a), {}, { stakingTokenPrice: g, earningTokenPrice: k, apr: T, isFinished: c });
+                                                        return Object(o.a)(Object(o.a)(Object(o.a)({}, n), a), {}, { stakingTokenPrice: window.tokenPrice, earningTokenPrice: k, apr: T, isFinished: c });
                                                     })),
                                                     n(K(x));
                                             case 17:
@@ -10824,9 +10824,10 @@
                     return l(a, n);
                 },
                 p = function (e, t, n) {
+                    debugger;
                     var a = Boolean(e.tokenPriceVsQuote);
-                    if ("USDC" === e.quoteToken.symbol) return a ? new c.a(e.tokenPriceVsQuote) : u.c;
-                    if ("wELA" === e.quoteToken.symbol) return a ? n.times(e.tokenPriceVsQuote) : u.c;
+                    if ("USDC" === e.quoteToken.symbol) return a ? new c.a(0) : u.c;
+                    if ("wELA" === e.quoteToken.symbol) return a ? n.times(0) : u.c;
                     if (!t) return u.c;
                     if ("wELA" === t.quoteToken.symbol) {
                         var i = n.times(t.tokenPriceVsQuote);
