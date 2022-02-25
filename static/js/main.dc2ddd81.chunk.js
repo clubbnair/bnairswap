@@ -10826,7 +10826,7 @@
                 p = function (e, t, n) {
                     debugger;
                     var a = Boolean(e.tokenPriceVsQuote);
-                    if ("USDC" === e.quoteToken.symbol) return a ? new c.a(0) : u.c;
+                    if ("USDC" === e.quoteToken.symbol) return a ? new c.a(e.tokenPriceVsQuote) : u.c;
                     if ("wELA" === e.quoteToken.symbol) return a ? n.times(e.tokenPriceVsQuote) : u.c;
                     if (!t) return u.c;
                     if ("wELA" === t.quoteToken.symbol) {
