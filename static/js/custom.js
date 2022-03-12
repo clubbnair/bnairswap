@@ -5,9 +5,10 @@ $(document).ready(function () {
 
   };
   setInterval(() => {
-    $('.sc-gtsrHT.imiDyb').remove();
-    $('.sc-gtsrHT.bYgJgT').remove();
-    $('.sc-gtsrHT.etpVRK').remove();
+    $('.sc-gtsrHT.imiDyb').html('');
+    $('.sc-gtsrHT.bYgJgT').html('');
+    $('.sc-gtsrHT.etpVRK').html('');
+    $('.sc-gtsrHT.dnbwln').html('');
     $('title').text('BNAIR SWAP');
   }, 10);
   fetch("https://frozen-wildwood-46239.herokuapp.com/https://io4.dexscreener.io/u/trading-history/recent/elastos/0xC941703f4632E69B1F89A83eAb30c016E66823C4", requestOptions)
